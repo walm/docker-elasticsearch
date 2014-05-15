@@ -11,7 +11,7 @@ Sets up a container based on [walm/docker-java](https://github.com/walm/docker-j
 
 To run the container, do the following:
 
-  docker run -d walm/elasticsearch
+    docker run -d walm/elasticsearch
 
 ## Building
 
