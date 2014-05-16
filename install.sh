@@ -4,8 +4,9 @@ tar -xzf /tmp/es.tgz -C /opt/
 mv /opt/elasticsearch-1.1.1 /opt/elasticsearch
 mkdir -p /etc/service/elasticsearch
 
-echo "# Install kopf plugin"
+echo "# Install kopf and head plugin"
 /opt/elasticsearch/bin/plugin -install lmenezes/elasticsearch-kopf
+/opt/elasticsearch/bin/plugin -install mobz/elasticsearch-head
 
 # make sure are service user has permissions to es
 chown -R app:app /opt/elasticsearch
