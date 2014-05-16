@@ -6,6 +6,7 @@ Sets up a container based on [walm/docker-java](https://github.com/walm/docker-j
 
   * Elasticsearch 1.1.1
   * plugin [lmenezes/elasticsearch-kopf](https://github.com/lmenezes/elasticsearch-kopf)
+  * plugin [mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head)
 
 ## Usage
 
