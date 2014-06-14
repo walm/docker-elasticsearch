@@ -1,4 +1,4 @@
-FROM walm/java-base:0.1.1
+FROM walm/java:0.2.0
 MAINTAINER Andreas Wålm "andreas@walm.net"
 
 RUN mkdir /setup

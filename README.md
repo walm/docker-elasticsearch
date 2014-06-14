@@ -1,6 +1,6 @@
 # Elasticsearch in Docker
 
-Sets up a container based on [walm/docker-java](https://github.com/walm/docker-java)
+Sets up a container based on [walm/java](https://github.com/walm/docker-java)
 
 ## Includes
 
