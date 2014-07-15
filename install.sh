@@ -8,6 +8,10 @@ echo "# Install kopf and head plugin"
 /opt/elasticsearch/bin/plugin -install lmenezes/elasticsearch-kopf
 /opt/elasticsearch/bin/plugin -install mobz/elasticsearch-head
 
+echo "# Disable multicast and dynamic scripting"
+sed -i 's/# discovery.zen.ping.multicast.enabled: false/discovery.zen.ping.multicast.enabled: false/g' /opt/elasticsearch/config/elasticsearch.yml
+echo "script.disable_dynamic: true" >> /opt/elasticsearch/config/elasticsearch.yml
+
 # make sure are service user has permissions to es
 chown -R app:app /opt/elasticsearch
 
