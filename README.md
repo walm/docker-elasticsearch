@@ -4,7 +4,7 @@ Sets up a container based on [walm/java](https://github.com/walm/docker-java)
 
 ## Includes
 
-  * Elasticsearch 1.1.1 (with multicast and dynamic scripting disabled)
+  * Elasticsearch 1.3.2 (with multicast disabled and dynamic scripting sandbox)
   * plugin [lmenezes/elasticsearch-kopf](https://github.com/lmenezes/elasticsearch-kopf)
   * plugin [mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head)
 
