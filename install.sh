@@ -1,7 +1,7 @@
 echo "# Installing Elasticsearch"
-wget -q https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.3.2.tar.gz -O /tmp/es.tgz
+wget -q https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.3.4.tar.gz -O /tmp/es.tgz
 tar -xzf /tmp/es.tgz -C /opt/
-mv /opt/elasticsearch-1.3.2 /opt/elasticsearch
+mv /opt/elasticsearch-1.3.4 /opt/elasticsearch
 mkdir -p /etc/service/elasticsearch
 
 echo "# Install kopf and head plugin"
